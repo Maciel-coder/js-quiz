@@ -1,5 +1,7 @@
 // src/components/Footer/index.js
+import React from 'react';
 import styled from 'styled-components';
+
 const FooterWrapper = styled.footer`
   background-color: #00000070;
   padding: 20px;
@@ -42,5 +44,5 @@ export default function Footer(props) {
       </p>
     </FooterWrapper>
   );
-} 
-//export default Footer;
+}
+// export default Footer;
